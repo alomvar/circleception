@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0FBD4B61C495E9300C94361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBD4B51C495E9300C94361 /* AppDelegate.swift */; };
+		D0FBD4B81C495E9300C94361 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBD4B71C495E9300C94361 /* ViewController.swift */; };
+		D0FBD4BA1C495E9300C94361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FBD4B91C495E9300C94361 /* Assets.xcassets */; };
+		D0FBD4BD1C495E9300C94361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FBD4BB1C495E9300C94361 /* Main.storyboard */; };
+		D0FBD4C81C495E9300C94361 /* CircleceptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBD4C71C495E9300C94361 /* CircleceptionTests.swift */; };
+		D0FBD4D31C495E9300C94361 /* CircleceptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBD4D21C495E9300C94361 /* CircleceptionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0FBD4C41C495E9300C94361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FBD4AA1C495E9300C94361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FBD4B11C495E9300C94361;
+			remoteInfo = Circleception;
+		};
+		D0FBD4CF1C495E9300C94361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0FBD4AA1C495E9300C94361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FBD4B11C495E9300C94361;
+			remoteInfo = Circleception;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0FBD4B21C495E9300C94361 /* Circleception.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circleception.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FBD4B51C495E9300C94361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0FBD4B71C495E9300C94361 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0FBD4B91C495E9300C94361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0FBD4BC1C495E9300C94361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0FBD4BE1C495E9300C94361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FBD4C31C495E9300C94361 /* CircleceptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleceptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FBD4C71C495E9300C94361 /* CircleceptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleceptionTests.swift; sourceTree = "<group>"; };
+		D0FBD4C91C495E9300C94361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FBD4CE1C495E9300C94361 /* CircleceptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleceptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FBD4D21C495E9300C94361 /* CircleceptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleceptionUITests.swift; sourceTree = "<group>"; };
+		D0FBD4D41C495E9300C94361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0FBD4AF1C495E9300C94361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FBD4C01C495E9300C94361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FBD4CB1C495E9300C94361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0FBD4A91C495E9300C94361 = {
+			isa = PBXGroup;
+			children = (
+				D0FBD4B41C495E9300C94361 /* Circleception */,
+				D0FBD4C61C495E9300C94361 /* CircleceptionTests */,
+				D0FBD4D11C495E9300C94361 /* CircleceptionUITests */,
+				D0FBD4B31C495E9300C94361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0FBD4B31C495E9300C94361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0FBD4B21C495E9300C94361 /* Circleception.app */,
+				D0FBD4C31C495E9300C94361 /* CircleceptionTests.xctest */,
+				D0FBD4CE1C495E9300C94361 /* CircleceptionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0FBD4B41C495E9300C94361 /* Circleception */ = {
+			isa = PBXGroup;
+			children = (
+				D0FBD4B51C495E9300C94361 /* AppDelegate.swift */,
+				D0FBD4B71C495E9300C94361 /* ViewController.swift */,
+				D0FBD4B91C495E9300C94361 /* Assets.xcassets */,
+				D0FBD4BB1C495E9300C94361 /* Main.storyboard */,
+				D0FBD4BE1C495E9300C94361 /* Info.plist */,
+			);
+			path = Circleception;
+			sourceTree = "<group>";
+		};
+		D0FBD4C61C495E9300C94361 /* CircleceptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FBD4C71C495E9300C94361 /* CircleceptionTests.swift */,
+				D0FBD4C91C495E9300C94361 /* Info.plist */,
+			);
+			path = CircleceptionTests;
+			sourceTree = "<group>";
+		};
+		D0FBD4D11C495E9300C94361 /* CircleceptionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0FBD4D21C495E9300C94361 /* CircleceptionUITests.swift */,
+				D0FBD4D41C495E9300C94361 /* Info.plist */,
+			);
+			path = CircleceptionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0FBD4B11C495E9300C94361 /* Circleception */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FBD4D71C495E9400C94361 /* Build configuration list for PBXNativeTarget "Circleception" */;
+			buildPhases = (
+				D0FBD4AE1C495E9300C94361 /* Sources */,
+				D0FBD4AF1C495E9300C94361 /* Frameworks */,
+				D0FBD4B01C495E9300C94361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circleception;
+			productName = Circleception;
+			productReference = D0FBD4B21C495E9300C94361 /* Circleception.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0FBD4C21C495E9300C94361 /* CircleceptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FBD4DA1C495E9400C94361 /* Build configuration list for PBXNativeTarget "CircleceptionTests" */;
+			buildPhases = (
+				D0FBD4BF1C495E9300C94361 /* Sources */,
+				D0FBD4C01C495E9300C94361 /* Frameworks */,
+				D0FBD4C11C495E9300C94361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FBD4C51C495E9300C94361 /* PBXTargetDependency */,
+			);
+			name = CircleceptionTests;
+			productName = CircleceptionTests;
+			productReference = D0FBD4C31C495E9300C94361 /* CircleceptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0FBD4CD1C495E9300C94361 /* CircleceptionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0FBD4DD1C495E9400C94361 /* Build configuration list for PBXNativeTarget "CircleceptionUITests" */;
+			buildPhases = (
+				D0FBD4CA1C495E9300C94361 /* Sources */,
+				D0FBD4CB1C495E9300C94361 /* Frameworks */,
+				D0FBD4CC1C495E9300C94361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0FBD4D01C495E9300C94361 /* PBXTargetDependency */,
+			);
+			name = CircleceptionUITests;
+			productName = CircleceptionUITests;
+			productReference = D0FBD4CE1C495E9300C94361 /* CircleceptionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0FBD4AA1C495E9300C94361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Peter Horn";
+				TargetAttributes = {
+					D0FBD4B11C495E9300C94361 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D0FBD4C21C495E9300C94361 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D0FBD4B11C495E9300C94361;
+					};
+					D0FBD4CD1C495E9300C94361 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D0FBD4B11C495E9300C94361;
+					};
+				};
+			};
+			buildConfigurationList = D0FBD4AD1C495E9300C94361 /* Build configuration list for PBXProject "Circleception" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0FBD4A91C495E9300C94361;
+			productRefGroup = D0FBD4B31C495E9300C94361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0FBD4B11C495E9300C94361 /* Circleception */,
+				D0FBD4C21C495E9300C94361 /* CircleceptionTests */,
+				D0FBD4CD1C495E9300C94361 /* CircleceptionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0FBD4B01C495E9300C94361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FBD4BA1C495E9300C94361 /* Assets.xcassets in Resources */,
+				D0FBD4BD1C495E9300C94361 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FBD4C11C495E9300C94361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FBD4CC1C495E9300C94361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0FBD4AE1C495E9300C94361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FBD4B81C495E9300C94361 /* ViewController.swift in Sources */,
+				D0FBD4B61C495E9300C94361 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FBD4BF1C495E9300C94361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FBD4C81C495E9300C94361 /* CircleceptionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FBD4CA1C495E9300C94361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FBD4D31C495E9300C94361 /* CircleceptionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0FBD4C51C495E9300C94361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FBD4B11C495E9300C94361 /* Circleception */;
+			targetProxy = D0FBD4C41C495E9300C94361 /* PBXContainerItemProxy */;
+		};
+		D0FBD4D01C495E9300C94361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0FBD4B11C495E9300C94361 /* Circleception */;
+			targetProxy = D0FBD4CF1C495E9300C94361 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0FBD4BB1C495E9300C94361 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0FBD4BC1C495E9300C94361 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0FBD4D51C495E9300C94361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0FBD4D61C495E9300C94361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0FBD4D81C495E9400C94361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Circleception/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alomvar.Circleception;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0FBD4D91C495E9400C94361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Circleception/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alomvar.Circleception;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0FBD4DB1C495E9400C94361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CircleceptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alomvar.CircleceptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circleception.app/Contents/MacOS/Circleception";
+			};
+			name = Debug;
+		};
+		D0FBD4DC1C495E9400C94361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CircleceptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alomvar.CircleceptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circleception.app/Contents/MacOS/Circleception";
+			};
+			name = Release;
+		};
+		D0FBD4DE1C495E9400C94361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CircleceptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alomvar.CircleceptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Circleception;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0FBD4DF1C495E9400C94361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CircleceptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alomvar.CircleceptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Circleception;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0FBD4AD1C495E9300C94361 /* Build configuration list for PBXProject "Circleception" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FBD4D51C495E9300C94361 /* Debug */,
+				D0FBD4D61C495E9300C94361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0FBD4D71C495E9400C94361 /* Build configuration list for PBXNativeTarget "Circleception" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FBD4D81C495E9400C94361 /* Debug */,
+				D0FBD4D91C495E9400C94361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0FBD4DA1C495E9400C94361 /* Build configuration list for PBXNativeTarget "CircleceptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FBD4DB1C495E9400C94361 /* Debug */,
+				D0FBD4DC1C495E9400C94361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0FBD4DD1C495E9400C94361 /* Build configuration list for PBXNativeTarget "CircleceptionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FBD4DE1C495E9400C94361 /* Debug */,
+				D0FBD4DF1C495E9400C94361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0FBD4AA1C495E9300C94361 /* Project object */;
+}
