@@ -15,22 +15,21 @@ import Cocoa
 @IBDesignable
 class CircleView : NSView
 {
-    @IBInspectable var numberOfCircles: Int = 4
+    @IBInspectable var count: Int = 4
     @IBInspectable var rotation: Double = 0
-    @IBInspectable var circleDiameter: Double = 10
-    @IBInspectable var circleDistanceFromViewCenter: Double = 20
-    @IBInspectable var circleStrokeWidth: Double = 1
-    @IBInspectable var circleStrokeColor: NSColor = NSColor.blackColor()
+    @IBInspectable var diameter: Double = 10
+    @IBInspectable var distanceFromViewCenter: Double = 20
+    @IBInspectable var strokeWidth: Double = 1
+    @IBInspectable var strokeColor: NSColor = NSColor.blackColor()
     
     // The key paths of the assigned data model (if assigned) to observe.
-    //
     private let modelKeysToObserve = [
-        "numberOfCircles",
+        "count",
         "rotation",
-        "circleDiameter",
-        "circleDistanceFromViewCenter",
-        "circleStrokeWidth",
-        "circleStrokeColor"
+        "diameter",
+        "distanceFromViewCenter",
+        "strokeWidth",
+        "strokeColor"
     ]
     
     var circles: Circles? {
@@ -69,30 +68,30 @@ class CircleView : NSView
         background.fill()
         
         // If data model is set, draw circles.
-        if let parameters = circles {
-            let radialSegment = (360.0 / Double(parameters.numberOfCircles)) * (M_PI / 180)
+        if let circles = circles {
+            let radialSegment = (360.0 / Double(circles.count)) * (M_PI / 180)
             let viewCenter = NSPoint(x: bounds.width / 2, y: bounds.height / 2)
-            let radialRotation = parameters.rotation * (M_PI / 180)
-            NSColor.darkGrayColor().setStroke()
+            let radialRotation = circles.rotation * (M_PI / 180)
+            circles.strokeColor.setStroke()
             
-            for iterator in Range(start: 0, end: parameters.numberOfCircles) {
+            for iterator in Range(start: 0, end: circles.count) {
                 var circleCenter = viewCenter
                 
                 // Relative translation of each circle...
                 let cosinus = cos((radialSegment * Double(iterator)) + radialRotation)
                 let sinus = sin((radialSegment * Double(iterator)) + radialRotation)
                 
-                circleCenter.x += CGFloat(parameters.circleDistanceFromViewCenter * cosinus)
-                circleCenter.y += CGFloat(parameters.circleDistanceFromViewCenter * sinus)
+                circleCenter.x += CGFloat(circles.distanceFromViewCenter * cosinus)
+                circleCenter.y += CGFloat(circles.distanceFromViewCenter * sinus)
                 
                 // ...based in its center.
-                circleCenter.x -= CGFloat(parameters.circleDiameter / 2)
-                circleCenter.y -= CGFloat(parameters.circleDiameter / 2)
+                circleCenter.x -= CGFloat(circles.diameter / 2)
+                circleCenter.y -= CGFloat(circles.diameter / 2)
                 
-                let bezierRect = NSRect(x: CGFloat(circleCenter.x), y: CGFloat(circleCenter.y), width: CGFloat(parameters.circleDiameter), height: CGFloat(parameters.circleDiameter))
+                let bezierRect = NSRect(x: CGFloat(circleCenter.x), y: CGFloat(circleCenter.y), width: CGFloat(circles.diameter), height: CGFloat(circles.diameter))
                 let bezierPath = NSBezierPath(ovalInRect: bezierRect)
                 
-                bezierPath.lineWidth = CGFloat(parameters.circleStrokeWidth)
+                bezierPath.lineWidth = CGFloat(circles.strokeWidth)
                 bezierPath.stroke()
             }
         }

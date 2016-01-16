@@ -16,21 +16,10 @@ import Cocoa
 // but only the parameters how they are drawn in the view.
 //
 class Circles: NSObject {
-    var numberOfCircles: Int
-    var rotation: Double
-    var circleDiameter: Double
-    var circleDistanceFromViewCenter: Double
-    var circleStrokeWidth: Double
-    var circleStrokeColor: NSColor
-    
-    override init() {
-        numberOfCircles = 9
-        rotation = 0
-        circleDiameter = 20
-        circleDistanceFromViewCenter = 40
-        circleStrokeWidth = 2
-        circleStrokeColor = NSColor.blackColor()
-        
-        super.init()
-    }
+    var count: Int = 9
+    var rotation: Double = 0
+    var diameter: Double = 20
+    var distanceFromViewCenter: Double = 40
+    var strokeWidth: Double = 2
+    var strokeColor: NSColor = NSColor.blackColor()
 }

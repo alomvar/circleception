@@ -413,7 +413,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="continuous" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.circleDiameter" id="GSk-d3-643"/>
+                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.diameter" id="hXe-tM-xTV"/>
                                 </connections>
                             </slider>
                             <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rmx-Kc-Nx8">
@@ -423,7 +423,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="continuous" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.circleStrokeWidth" id="DUb-Vf-BnS"/>
+                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.strokeWidth" id="aiH-wT-HKO"/>
                                 </connections>
                             </slider>
                             <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MRw-uL-x50">
@@ -433,7 +433,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="continuous" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.circleDistanceFromViewCenter" id="s1C-BS-nJc"/>
+                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.distanceFromViewCenter" id="ust-ky-zBo"/>
                                 </connections>
                             </slider>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZOw-mf-ZCC">
@@ -485,14 +485,14 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
-                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.numberOfCircles" id="ao0-pH-OQn"/>
+                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.count" id="0fL-Bb-Yt9"/>
                                 </connections>
                             </textField>
                             <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="enY-Rk-yAY">
                                 <rect key="frame" x="221" y="155" width="19" height="27"/>
                                 <stepperCell key="cell" continuous="YES" alignment="left" minValue="1" maxValue="100" doubleValue="4" id="Sq5-YQ-Yby"/>
                                 <connections>
-                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.numberOfCircles" id="Mls-S6-Fl2"/>
+                                    <binding destination="Hbq-mm-fus" name="value" keyPath="representedObject.count" id="KzK-RJ-pQ0"/>
                                 </connections>
                             </stepper>
                         </subviews>
