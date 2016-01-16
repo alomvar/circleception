@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D024B3631C4A7BFA00F0F6F1 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D024B3621C4A7BFA00F0F6F1 /* SplitViewController.swift */; };
+		D024B3651C4A7D1300F0F6F1 /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D024B3641C4A7D1300F0F6F1 /* Circles.swift */; };
+		D024B3691C4AB8E800F0F6F1 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D024B3681C4AB8E800F0F6F1 /* CircleViewController.swift */; };
+		D064F1C41C498C7300EBAC31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064F1C21C498C7300EBAC31 /* Main.storyboard */; };
 		D0FBD4B61C495E9300C94361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBD4B51C495E9300C94361 /* AppDelegate.swift */; };
-		D0FBD4B81C495E9300C94361 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBD4B71C495E9300C94361 /* ViewController.swift */; };
 		D0FBD4BA1C495E9300C94361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FBD4B91C495E9300C94361 /* Assets.xcassets */; };
-		D0FBD4BD1C495E9300C94361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0FBD4BB1C495E9300C94361 /* Main.storyboard */; };
 		D0FBD4C81C495E9300C94361 /* CircleceptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBD4C71C495E9300C94361 /* CircleceptionTests.swift */; };
 		D0FBD4D31C495E9300C94361 /* CircleceptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBD4D21C495E9300C94361 /* CircleceptionUITests.swift */; };
+		D0FBD4E11C495EA100C94361 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBD4E01C495EA100C94361 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D024B3621C4A7BFA00F0F6F1 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		D024B3641C4A7D1300F0F6F1 /* Circles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
+		D024B3681C4AB8E800F0F6F1 /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		D064F1C31C498C7300EBAC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0FBD4B21C495E9300C94361 /* Circleception.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circleception.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FBD4B51C495E9300C94361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0FBD4B71C495E9300C94361 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0FBD4B91C495E9300C94361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0FBD4BC1C495E9300C94361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0FBD4BE1C495E9300C94361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0FBD4C31C495E9300C94361 /* CircleceptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleceptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FBD4C71C495E9300C94361 /* CircleceptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleceptionTests.swift; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 		D0FBD4CE1C495E9300C94361 /* CircleceptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleceptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FBD4D21C495E9300C94361 /* CircleceptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleceptionUITests.swift; sourceTree = "<group>"; };
 		D0FBD4D41C495E9300C94361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FBD4E01C495EA100C94361 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				D0FBD4B51C495E9300C94361 /* AppDelegate.swift */,
-				D0FBD4B71C495E9300C94361 /* ViewController.swift */,
+				D064F1C21C498C7300EBAC31 /* Main.storyboard */,
 				D0FBD4B91C495E9300C94361 /* Assets.xcassets */,
-				D0FBD4BB1C495E9300C94361 /* Main.storyboard */,
 				D0FBD4BE1C495E9300C94361 /* Info.plist */,
+				D0FBD4E01C495EA100C94361 /* CircleView.swift */,
+				D024B3621C4A7BFA00F0F6F1 /* SplitViewController.swift */,
+				D024B3641C4A7D1300F0F6F1 /* Circles.swift */,
+				D024B3681C4AB8E800F0F6F1 /* CircleViewController.swift */,
 			);
 			path = Circleception;
 			sourceTree = "<group>";
@@ -227,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FBD4BA1C495E9300C94361 /* Assets.xcassets in Resources */,
-				D0FBD4BD1C495E9300C94361 /* Main.storyboard in Resources */,
+				D064F1C41C498C7300EBAC31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FBD4B81C495E9300C94361 /* ViewController.swift in Sources */,
+				D0FBD4E11C495EA100C94361 /* CircleView.swift in Sources */,
 				D0FBD4B61C495E9300C94361 /* AppDelegate.swift in Sources */,
+				D024B3691C4AB8E800F0F6F1 /* CircleViewController.swift in Sources */,
+				D024B3631C4A7BFA00F0F6F1 /* SplitViewController.swift in Sources */,
+				D024B3651C4A7D1300F0F6F1 /* Circles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,10 +301,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D0FBD4BB1C495E9300C94361 /* Main.storyboard */ = {
+		D064F1C21C498C7300EBAC31 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D0FBD4BC1C495E9300C94361 /* Base */,
+				D064F1C31C498C7300EBAC31 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -475,6 +487,7 @@
 				D0FBD4D91C495E9400C94361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0FBD4DA1C495E9400C94361 /* Build configuration list for PBXNativeTarget "CircleceptionTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +496,7 @@
 				D0FBD4DC1C495E9400C94361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0FBD4DD1C495E9400C94361 /* Build configuration list for PBXNativeTarget "CircleceptionUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +505,7 @@
 				D0FBD4DF1C495E9400C94361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
